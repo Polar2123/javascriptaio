@@ -60,3 +60,38 @@ let addressLength = exactAddress.length;
 let numberOfAddress = exactAddress.substring(addressLength - 4, addressLength);
 console.log(numberOfAddress);
 */
+
+/* Testing out the .replace function :)
+let shortMessage = "Hello friend!";
+console.log(shortMessage.replace("friend", "buddy"));
+console.log(shortMessage);
+*/
+
+/* Testing out the .toLowerCase(); function.
+let highScream = "AHHHHHHHHHHHHHHHH";
+console.log(highScream.toLowerCase());
+*/
+
+/* Trying out .toUpperCase function
+let lowWhisper = "hello";
+console.log(lowWhisper.toUpperCase());
+*/
+
+/* Objects are great :)
+const friend = {
+  name: "Bob",
+  address: "Builder Street 21",
+  spouse: "Josefine",
+};
+console.log(friend.name);
+*/
+
+/* Arrays are also great :)
+const favoriteWebsite = [
+  "youtube.com",
+  "google.com",
+  "facebook.com",
+  "github.com",
+];
+console.log(favoriteWebsite[3]);
+*/
