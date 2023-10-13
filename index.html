@@ -6,7 +6,58 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>hello</h1>
+
     <script src="variables.js"></script>
+    <!--
+    <div id="message"></div>
+    <script>
+      const dt = new Date();
+      const month = dt.getMonth();
+      console.log(month); // getMonth returns a number :)
+      let msg;
+      switch (
+        month // Can write the case instead of the variable to check that the cases work :)
+      ) {
+        case 0:
+          msg = "It's january, happy new years!";
+          break;
+        case 1:
+          msg = "It's february, this is a short month";
+          break;
+        case 2:
+          msg = "It's march, the first spring month!";
+          break;
+        case 3:
+          msg = "It's april, make sure to fool your friends ;)";
+          break;
+        case 4:
+          msg = "It's May! The national day of Norway is in this month";
+          break;
+        case 5:
+          msg = "It's june, the first summer month!";
+          break;
+        case 6:
+          msg = "It's july, most people are having their holidays around now";
+          break;
+        case 7:
+          msg = "It's august... people are starting work again now";
+          break;
+        case 8:
+          msg = "It's september, the weather is starting to get gloomy now";
+          break;
+        case 9:
+          msg = "It's october! my birthday month";
+          break;
+        case 10:
+          msg = "It's november, this is just a gloomy filler month";
+          break;
+        case 11:
+          msg = "It's december, christmas is coming up!";
+          break;
+      }
+      const el = document.getElementById("message");
+      el.innerHTML = msg;
+      --!>
+    </script>
   </body>
 </html>

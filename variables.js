@@ -95,3 +95,23 @@ const favoriteWebsite = [
 ];
 console.log(favoriteWebsite[3]);
 */
+
+/* Trying out if...else statement :)
+const currentDate = new Date();
+const currentHour = currentDate.getHours();
+let msg;
+if (currentHour < 12) {
+  msg = "Good morning friend!";
+} else {
+  msg = "Good day, what's up?";
+}
+console.log(msg);
+*/
+
+/* Trying out ternary operators :)
+const currentDate = new Date();
+const currentHour = currentDate.getHours();
+let msg;
+msg = currentHour < 12 ? "Good morning friend!" : "Good day, what's up?";
+console.log(msg);
+*/
